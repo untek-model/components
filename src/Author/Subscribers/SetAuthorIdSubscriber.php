@@ -5,7 +5,7 @@ namespace Untek\Model\Components\Author\Subscribers;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\Security\Core\Exception\AuthenticationException;
 use Symfony\Component\Security\Core\Security;
-use Untek\Core\Code\Helpers\PropertyHelper;
+use Untek\Core\Instance\Helpers\PropertyHelper;
 use Untek\Model\Shared\Enums\EventEnum;
 use Untek\Model\Shared\Events\EntityEvent;
 use Untek\Model\Entity\Interfaces\EntityIdInterface;
