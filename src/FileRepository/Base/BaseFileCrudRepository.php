@@ -2,11 +2,11 @@
 
 namespace Untek\Model\Components\FileRepository\Base;
 
+use Untek\Component\FormatAdapter\StoreFile;
 use Untek\Model\Components\ArrayRepository\Traits\ArrayCrudRepositoryTrait;
 use Untek\Model\Query\Entities\Query;
 use Untek\Model\Repository\Interfaces\CrudRepositoryInterface;
 use Untek\Model\Repository\Traits\RepositoryRelationTrait;
-use Untek\Lib\Components\Store\StoreFile;
 
 abstract class BaseFileCrudRepository extends BaseFileRepository implements CrudRepositoryInterface
 {
