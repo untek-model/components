@@ -14,16 +14,6 @@ abstract class BaseFileCrudRepository extends BaseFileRepository implements Crud
     use ArrayCrudRepositoryTrait;
     use RepositoryRelationTrait;
 
-    public function directory(): string
-    {
-        return getenv('FILE_DB_DIRECTORY');
-    }
-
-    public function fileExt(): string
-    {
-        return 'php';
-    }
-
     protected function forgeQuery(Query $query = null): Query
     {
         $query = Query::forge($query);
