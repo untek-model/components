@@ -5,7 +5,7 @@ namespace Untek\Model\Components\FileRepository\Base;
 use Untek\Model\EntityManager\Interfaces\EntityManagerInterface;
 use Untek\Model\EntityManager\Traits\EntityManagerAwareTrait;
 use Untek\Model\Repository\Interfaces\RepositoryInterface;
-use Untek\Lib\Components\Store\StoreFile;
+use Untek\Component\FormatAdapter\StoreFile;
 
 abstract class BaseFileRepository implements RepositoryInterface
 {
