@@ -10,7 +10,7 @@ use Untek\Model\Components\ArrayRepository\Helpers\FilterHelper;
 use Untek\Model\Components\FileRepository\Base\BaseFileCrudRepository;
 use Untek\Lib\Components\DynamicEntity\Entities\DynamicEntity;
 use Untek\Component\FormatAdapter\StoreFile;
-use Untek\Framework\Rpc\Domain\Entities\RpcResponseEntity;
+use Untek\Framework\Rpc\Domain\Model\RpcResponseEntity;
 
 class DynamicFileRepository extends BaseFileCrudRepository
 {
