@@ -19,7 +19,7 @@ trait ArrayCrudRepositoryTrait
 
     use CrudRepositoryFindAllTrait;
     use CrudRepositoryFindOneTrait;
-    use DispatchEventTrait;
+//    use DispatchEventTrait;
 
     abstract protected function getItems(): array;
 

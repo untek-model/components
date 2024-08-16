@@ -8,7 +8,7 @@ use Untek\Model\Query\Entities\Query;
 use Untek\Model\Repository\Interfaces\CrudRepositoryInterface;
 use Untek\Model\Repository\Traits\RepositoryRelationTrait;
 
-abstract class BaseFileCrudRepository extends BaseFileRepository implements CrudRepositoryInterface
+abstract class BaseFileCrudRepository extends BaseFileRepository //implements CrudRepositoryInterface
 {
 
     use ArrayCrudRepositoryTrait;

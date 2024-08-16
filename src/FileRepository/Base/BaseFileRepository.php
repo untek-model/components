@@ -7,7 +7,7 @@ use Untek\Model\EntityManager\Traits\EntityManagerAwareTrait;
 use Untek\Model\Repository\Interfaces\RepositoryInterface;
 use Untek\Component\FormatAdapter\StoreFile;
 
-abstract class BaseFileRepository implements RepositoryInterface
+abstract class BaseFileRepository //implements RepositoryInterface
 {
 
     use EntityManagerAwareTrait;
