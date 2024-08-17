@@ -2,11 +2,14 @@
 
 namespace Untek\Model\Components\ArrayRepository\Base;
 
+use Untek\Core\Code\Helpers\DeprecateHelper;
 use Untek\Model\Components\ArrayRepository\Traits\ArrayCrudRepositoryTrait;
 use Untek\Model\Query\Entities\Query;
 use Untek\Model\Shared\Traits\ForgeQueryTrait;
 use Untek\Model\Repository\Base\BaseRepository;
 use Untek\Model\Repository\Interfaces\CrudRepositoryInterface;
+
+DeprecateHelper::hardThrow();
 
 abstract class BaseArrayCrudRepository extends BaseRepository //implements CrudRepositoryInterface
 {

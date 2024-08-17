@@ -2,6 +2,7 @@
 
 namespace Untek\Model\Components\ArrayRepository\Traits;
 
+use Untek\Core\Code\Helpers\DeprecateHelper;
 use Untek\Core\Collection\Interfaces\Enumerable;
 use Untek\Core\Contract\Common\Exceptions\InvalidMethodParameterException;
 use Untek\Core\Contract\Common\Exceptions\NotFoundException;
@@ -13,6 +14,8 @@ use Untek\Model\Shared\Traits\DispatchEventTrait;
 use Untek\Model\Repository\Traits\CrudRepositoryFindAllTrait;
 use Untek\Model\Repository\Traits\CrudRepositoryFindOneTrait;
 use Untek\Model\Components\ArrayRepository\Helpers\FilterHelper;
+
+DeprecateHelper::hardThrow();
 
 trait ArrayCrudRepositoryTrait
 {

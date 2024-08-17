@@ -3,10 +3,13 @@
 namespace Untek\Model\Components\FileRepository\Base;
 
 use Untek\Component\FormatAdapter\StoreFile;
+use Untek\Core\Code\Helpers\DeprecateHelper;
 use Untek\Model\Components\ArrayRepository\Traits\ArrayCrudRepositoryTrait;
 use Untek\Model\Query\Entities\Query;
 use Untek\Model\Repository\Interfaces\CrudRepositoryInterface;
 use Untek\Model\Repository\Traits\RepositoryRelationTrait;
+
+DeprecateHelper::hardThrow();
 
 abstract class BaseFileCrudRepository extends BaseFileRepository //implements CrudRepositoryInterface
 {

@@ -4,9 +4,12 @@ namespace Untek\Model\Components\ArrayRepository\Helpers;
 
 use Doctrine\Common\Collections\Criteria;
 use Doctrine\Common\Collections\Expr\Comparison;
+use Untek\Core\Code\Helpers\DeprecateHelper;
 use Untek\Core\Collection\Interfaces\Enumerable;
 use Untek\Core\Collection\Libs\Collection;
 use Untek\Model\Query\Entities\Query;
+
+DeprecateHelper::hardThrow();
 
 class FilterHelper
 {

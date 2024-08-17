@@ -2,10 +2,13 @@
 
 namespace Untek\Model\Components\FileRepository\Base;
 
+use Untek\Core\Code\Helpers\DeprecateHelper;
 use Untek\Core\Contract\Common\Exceptions\NotFoundException;
 use Untek\Model\Components\FileRepository\Base\BaseFileCrudRepository;
 use Untek\Model\Entity\Helpers\EntityHelper;
 use Untek\Model\Repository\Traits\RepositoryMapperTrait;
+
+DeprecateHelper::hardThrow();
 
 abstract class BaseLoopedFileRepository extends BaseFileCrudRepository
 {

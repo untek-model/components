@@ -2,10 +2,13 @@
 
 namespace Untek\Model\Components\FileRepository\Base;
 
+use Untek\Core\Code\Helpers\DeprecateHelper;
 use Untek\Model\EntityManager\Interfaces\EntityManagerInterface;
 use Untek\Model\EntityManager\Traits\EntityManagerAwareTrait;
 use Untek\Model\Repository\Interfaces\RepositoryInterface;
 use Untek\Component\FormatAdapter\StoreFile;
+
+DeprecateHelper::hardThrow();
 
 abstract class BaseFileRepository //implements RepositoryInterface
 {
